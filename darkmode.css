@@ -1,0 +1,123 @@
+body#body{
+  background: #202020;
+}
+#room_listb{
+  background: #606060;
+  scrollbar-width: none;
+}
+#room_listb .on{
+  background: #663380;
+}
+#room_listb .cat1{
+  color: #702856;
+}
+#room_listb .cat2{
+  color: #C0C0C0;
+}
+#room_listb .cat2:hover{
+  background: #404040;
+  color: #C0C0C0;
+}
+div #div_list .inshadow{
+  background: #606060;
+}
+li#list_0 span.s0{
+  color: #702856;
+}
+#box1_inner #list_0, #box1_inner #list_0:hover{
+  background: #A0A0A0;
+}
+#box1_inner .li_items{
+  background: #A0A0A0;
+}
+li.li_items .s0, li.li_join .s0{
+  color: #707070;
+}
+li.li_items div.r span{
+  color: #909090;
+}
+.front_menu{
+  color: #707070;
+}
+#topimg_wrapper .tmg_tip b, #topimg_wrapper .tmg_tip p, .headlin, .search_zone_tip, 
+#body #box1 #top_b_show_create_room span, #body #box1 #top_b_show_create_room{
+  color: #707070
+}
+#i_search{
+  background: #505050;
+}
+#b_search, #reload_btn, #reload_btn_wrap .reload_btn{
+  background: #663380;
+}
+#div_notice .h #div_notice .h:hover{
+  background: #707070;
+}
+#div_notice .h{
+  border-bottom: 1px solid #A0A0A0;
+}
+.dialog .h b, .dialog_small .h b{
+  color: #702856;
+}
+#div_list, #div_notice_in, #room_desc_wrap, #div_view, #d_user_list2, #d_user_list, #pvt_msg_in2{
+  scrollbar-width: none;
+}
+#myinfowrap_fikidashi{
+  background: #606060;
+}
+#return_btn, #return_btn:hover{
+  background: #909090;
+}
+.tabs, #room_desc_wrap, .page_no_wrap, .comment, #div_view, .mes_wrap, .h, .dialog .h, .dialog_small .h, .dialog{
+  background: #A0A0A0;
+}
+#prev_page, #b_send, .dialog button.subm_btn, #a_category2, #b_create_room, #b_change_room{
+ background: #663380;
+}
+#room_desc_wrap, .p_msg_wrap{
+  border-bottom: 1px solid #A0A0A0;
+}
+.p_msg_ui_wrap{
+  border-top: 1px solid #A0A0A0;
+}
+#comment, #i_pvt_msg{
+  background: #909090;
+}
+img.selected, #comment, .you img.user{
+  border: 2px solid #663380;
+}
+.uploadButton{
+  background: #808080;
+}
+.comment_head span.m_time{
+  color: #707070;
+}
+.comd a{
+  color: #663380;
+}
+#tab_user_in_room, #tab_friends{
+background: #505050;
+}
+#box3, #d_user_list, #d_user_list2, #d_user_list3{
+  background: #A0A0A0;
+}
+#user_count div, #user_count_li div, #user_count2 div{
+  color: #C0C0C0;
+}
+.online_1{
+  color: #004900;
+}
+.online_2{
+  color: #808080;
+}
+.tabs{
+  border: none;
+}
+.comment_head span.m_no{
+  color: #707070;
+}
+#i_enter_room_passwd, #i_enter_room_riddle, #i_room_desc, #i_room_nam, #i_room_name{
+  background: #B0B0B0;
+}
+#b_friend_cancel{
+  background: #C0C0C0;
+}
