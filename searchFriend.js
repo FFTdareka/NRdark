@@ -1,10 +1,10 @@
-let suNe = document.createElement("input");
+var suNe = document.createElement("input");
 suNe.type = "text";
 suNe.id = "suNe";
-let suNse = document.createElement("input");
+var suNse = document.createElement("input");
 suNse.type = "submit";
 suNse.id = "suNse";
-let ul2 = document.getElementById("user_list2");
+var ul2 = document.getElementById("user_list2");
 ul2.insertBefore(suNse, ul2.firstChild);
 ul2.insertBefore(suNe, ul2.firstChild);
 
