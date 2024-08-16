@@ -4,6 +4,7 @@ suNe.id = "suNe";
 var suNse = document.createElement("input");
 suNse.type = "submit";
 suNse.id = "suNse";
+suNse.value = "検索する";
 var ul2 = document.getElementById("user_list2");
 ul2.insertBefore(suNse, ul2.firstChild);
 ul2.insertBefore(suNe, ul2.firstChild);
