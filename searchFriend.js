@@ -25,3 +25,22 @@ suNse.addEventListener("click", function() {
     }
   }
 })
+
+suNe.addEventListener("keyup", function(e) {
+  if (e.keyCode == "13") {
+    let suN = document.getElementById("suNe").value;
+    let uNe1 = document.getElementById("user_list2").getElementsByClassName("li_user clearfix");
+    let uN = document.getElementById("user_list2").getElementsByClassName("user_name");
+    for(let ii = 0; ii < uN.length; ii++) {
+      let uNe2 = uN[ii].innerText;
+      let uNm = uNe2.indexOf(suN);
+      if (suN == "") {
+        uNe1[ii].style.display = '';
+      } else if (uNm == -1) {
+        uNe1[ii].style.display = 'none';
+      } else {
+        uNe1[ii].style.display = '';
+      }
+    }
+  }
+})
